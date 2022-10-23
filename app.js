@@ -5,13 +5,13 @@ var titulo = document.getElementById('title')
 
 btn.onclick = function() {
     if(btn.value === 'white'){
-        trocar.src = './_img/sol.png';
+        trocar.src = './img_/sol.png';
         btn.value = 'black';
         btn.innerHTML = 'WhiteMode'
         element.classList.toggle("dark-mode");
         titulo.innerHTML = 'WhiteMode using JavaScript'
 }else {
-    trocar.src = './_img/lua.png';
+    trocar.src = './img_/lua.png';
     btn.value = 'white';
     btn.innerHTML = 'BlackMode';
     element.classList.toggle("dark-mode")
