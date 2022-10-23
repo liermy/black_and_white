@@ -3,6 +3,8 @@ var btn = document.getElementById('btn')
 var element = document.body;
 var titulo = document.getElementById('title')
 
+alert('press the button to change the background color')
+
 btn.onclick = function() {
     if(btn.value === 'white'){
         trocar.src = './img/sol.png';
